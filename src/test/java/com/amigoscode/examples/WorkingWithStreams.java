@@ -1,12 +1,11 @@
 package com.amigoscode.examples;
 
-import org.junit.jupiter.api.Disabled;
-import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
 public class WorkingWithStreams {
 
@@ -18,9 +17,7 @@ public class WorkingWithStreams {
 
         Stream<String> namesStream = Stream.of("Amigoscode", "Alex", "Zara");
 
-        long count = stream
-                .limit(2).map(null).sorted(null).dropWhile(null)
-                .count();
+		long count = stream.limit(2).map(null).sorted(null).dropWhile(null).count();
 
         String[] namesArray = {};
         Arrays.stream(namesArray);
