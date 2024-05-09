@@ -1,16 +1,15 @@
 package com.amigoscode.examples;
 
-import com.amigoscode.beans.Car;
-import com.amigoscode.beans.Person;
-import com.amigoscode.mockdata.MockData;
-import org.junit.jupiter.api.Test;
-
 import java.util.Arrays;
 import java.util.List;
-import java.util.OptionalInt;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import org.junit.jupiter.api.Test;
+
+import com.amigoscode.beans.Car;
+import com.amigoscode.mockdata.MockData;
 
 public class Filtering {
 
